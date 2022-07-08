@@ -1,5 +1,28 @@
 /* add code here to make your image 300px square */
-
+.cat-image-squared {
+  background-image: url('https://d1hjkbq40fs2x4.cloudfront.net/2016-07-16/files/cat-sample_1313.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  width:300px;
+  height:300px;
+}  
 /* add code here to change the color and font family of your name/title */
 
+h1 {
+	color: red;
+}
+h2 {
+	color: blue;
+}
+ol li::marker {
+    color: red;
+}
+
+ol
+  {
+    /* list-style-type: none;*/
+    color: blue;
+    background-color: yellow;
+
+  }
 /* Bonus: change the color of your list elements */
